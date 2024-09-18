@@ -1,0 +1,153 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  all: unset;
+  background-color: rgb(142, 200, 252);
+}
+nav {
+  background-color: rgb(109, 123, 255);
+}
+
+nav ul {
+  max-width: 600px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 7px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav ul a {
+  border-radius: 7px;
+  user-select: auto;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 20px;
+  display: inline-block;
+  color: wheat;
+  background-color: blue;
+}
+nav ul a li {
+  font-family: "Courier New", Courier, monospace;
+}
+nav ul a:hover {
+  background-color: rgb(0, 0, 175);
+  color: rgb(197, 179, 144);
+}
+nav h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 14px;
+}
+.container {
+  margin: 0 auto;
+  display: block;
+  transition-duration: 0.5s;
+  max-width: 600px;
+  height: auto;
+  border: 3px solid black;
+  border-radius: 14px;
+}
+h1 {
+  text-align: center;
+  margin: 0;
+}
+.content {
+  border-radius: 11px;
+  transition-duration: 0.3s;
+  margin: 0 auto;
+  display: none;
+  padding: 20px;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 50px;
+  background-color: brown;
+}
+.content h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.content p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+.test,
+footer {
+  display: block;
+  margin: 0 auto;
+  max-width: 700px;
+}
+.test {
+  height: auto;
+  padding-top: 30px;
+  display: block;
+  margin: 0 auto;
+  max-width: 700px;
+  background-color: rgb(128, 128, 128);
+}
+.kemahiran {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: aliceblue;
+}
+.kemahiran h3 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.kemahiran h4 {
+  padding: 2px;
+  margin: 0;
+  margin-left: 5px;
+}
+.kemahiran .bar {
+  border: solid 3px black;
+  background-color: rgb(255, 255, 255);
+  margin: 0px auto 10px auto;
+  height: 20px;
+}
+.bar .lvl1,
+.lvl2,
+.lvl3,
+.lvl4 {
+  height: 100%;
+  border-right: solid 3px black;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.9em;
+  align-items: center;
+}
+.lvl1 {
+  background-color: rgb(133, 216, 0);
+  width: 90%;
+}
+.lvl2 {
+  background-color: brown;
+  width: 98%;
+}
+.lvl3 {
+  background-color: lightseagreen;
+  width: 85%;
+}
+.lvl4 {
+  background-color: yellow;
+  width: 78%;
+}
+
+footer {
+  padding-top: 20px;
+  height: 60px;
+  background-color: rgb(128, 128, 128);
+}
+footer span {
+  font-family: 'Roboto',Arial, Helvetica, sans-serif;
+  display: block;
+  text-align: center;
+}
+#c1 {
+  background-color: tomato;
+}
+#c2 {
+  background-color: blue;
+}
